@@ -7,8 +7,8 @@
 
     --font_titulos:'Krona One', sans-serif;
     --font_secundario: 'Montserrat', sans-serif;
-    --font_size_titulo:36px;
-    --font_size_texto:24px
+    --font_size_titulo:2.25rem;
+    --font_size_texto:1.5rem;
 
 }
 * {
@@ -28,7 +28,7 @@ header{
 
 .header-menu{
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 .header_nav_menu_link{
     font-family: var(--font_secundario);
@@ -55,10 +55,10 @@ header{
 }
 
 .presentacion__contenido{
-    width: 615px;
+    width: 38.5rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap:2.5rem;
 }
 
 .presentacion__contenido__titulo{
@@ -76,24 +76,24 @@ header{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap:2rem;
 }
 
 .presentacion__enlaces__link{
-    width: 378px;
+    width: 23.625rem;
     text-align: center;
-    border-radius: 8px;
-    font-size: 24px;
+    border-radius: 0.25rem;
+    font-size: var(--font_size_texto);
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 1.34rem 0;
     text-decoration: none;
     color: var(--color_secundario);
     font-family: var(--font_secundario);
-    border: 2px solid var(--color_terciario) ;
+    border: 0.125rem solid var(--color_terciario) ;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;;
+    gap: 0.625rem;
 }
 
 .presentacion__enlaces__link:hover{
@@ -143,7 +143,7 @@ header{
 
 footer{
     background-color:var(--color_terciario) ;
-    padding: 24px;
+    padding: 1.5rem;
     font-family: var(--font_secundario);
     font-size: var(--font_size_texto);
     font-weight: 400;
