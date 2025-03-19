@@ -161,6 +161,14 @@ footer{
         flex-direction: column-reverse;
     }
     
+    .presentacion {
+        padding:5% 15%;
+        gap:0rem
+    }
+    .presentacion__contenido{
+        width: auto;
+    }
+
 }
 
 @media(max-width:700px){
@@ -169,7 +177,9 @@ footer{
         gap: 1rem;
     }
     .presentacion {
-        padding:5% 0%;
-        gap:0rem
+        padding:5% 5%;
+    }
+    .presentacion__contenido{
+        width: auto;
     }
 }
